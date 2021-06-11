@@ -1,0 +1,1 @@
+# generic-jest-stitches-environment
