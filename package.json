@@ -1,0 +1,23 @@
+{
+  "name": "generic-jest-stitches-environment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dylanklohr/generic-jest-stitches-environment.git",
+  "author": "Dylan Klohr <dylan.klohr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "yarn run test --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "4.1.4"
+  },
+  "dependencies": {
+    "@stitches/react": "0.2.0-canary.5"
+  }
+}
